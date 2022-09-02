@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/all.js"></script>
+  <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <header id="nav-bar">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="icons/Logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-lg-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+            </ul>
+              <div class="d-flex align-items-center justify-content-end">
+                <img class="instagram-logo" src="icons/instagram.svg" alt="">
+                <img class="twitter-logo" src="icons/twitter.png" alt="">
+              </div>
+            <a href="#" class="btn btn-brand ms-lg-4">sign up <img class="arrow-img" src="icons/Vector.svg" alt=""></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="Home">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <img class="content-text-img w-50 mt-5"  src="icons/Group 12.svg" alt="">
+            <p class="content-text py-3">
+              If they are listed here, then <span>DO NOT DEAL.</span><br>
+              They have a reputation of being UNREACHABLE
+            </p>
+            <div class="box-mode d-none d-xs-none d-sm-none d-md-block d-lg-block">
+            <div class="Search-bar d-flex  justify-content-center">
+              <div class="position-relative d-flex align-items-center">
+                <input type="text" placeholder="Name or Phone number or BVN or Email or NIN" name="Search" id="index Search">
+                <img class="search-icon" src="icons/Search icon.svg">
+              </div>
+              <div class="position-relative d-flex align-items-center">
+                <input type="submit" name value="Search" onclick="SearchHome(event, 'web')">
+              <img class="search-img" src="icons/btnlog.png"  alt="">
+              </div>
+            </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section>
+      <div class="box-mode d-block d-xs-block d-sm-block d-md-none d-lg-none">
+      <div class="container">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control small-input" placeholder="Name or Phone number or BVN or Email or NIN" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-text bg-primary" id="basic-addon2"><i class="fa fa-search text-white" aria-hidden="true"></i></span>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <img class="w-75 content-image py-5" src="icons/mock.png" alt="">
+          </div>
+        </div>
+      <div class="box-mode d-block d-xs-block d-sm-block d-md-none d-lg-none">
+        <div class="row text-center">
+          <div class="col-12 mx-auto">
+            <a href="#">
+              <button class="bg-dark rounded"><i class="fa-brands fa-apple"></i><span class="text-white">|</span><img class="google-play-img" src="icons/pi2.png" alt=""><span class="text-white px-3">Get App</span></button>
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="Lenders"></div>
+          </div>
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-3 lenders-head">Lenders</h2>
+            <p class="lenderstext">Lenders use <b>identtii</b> to double check loan requests and approvals</p>
+            <p><a class="CTA-get" href="#">Get started &nbsp; <i class="fa-solid fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center flex-column-reverse flex-md-row flex-lg-row">
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-3 lenders-head">Telcos</h2>
+            <p class="lenderstext">Telcos use <b>identtii</b> to recover unpaid airtime debts in the events that customers yank off their lines</p>
+            <p><a class="CTA-get" href="#">Get started &nbsp; <i class="fa-solid fa-arrow-right"></i></a></p>
+          </div>
+          <div class="col-md-6">
+            <div class="Telcos"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="Employers"></div>
+          </div>
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-3 lenders-head">Employers</h2>
+            <p class="lenderstext">They may have the skill, but concerned employers check employees up on <b>identii</b> before they deal </p>
+            <p><a class="CTA-get" href="#">Get started &nbsp; <i class="fa-solid fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container">
+        <div class="row align-items-center flex-column-reverse flex-md-row flex-lg-row">
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-3 lenders-head">Landlords</h2>
+            <p class="lenderstext">Landlords check <b>identtii</b> to ascertain the reputation of prospective tenants</p>
+            <p><a class="CTA-get" href="#">Get started &nbsp; <i class="fa-solid fa-arrow-right"></i></a></p>
+          </div>
+          <div class="col-md-6">
+            <div class="Landlords"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="footer-img"></div>
+          </div>
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-3 footer-head">Protect the community, Get help to reconnect using our APIs</h2>
+            <p class="footertext py-3">Entered some deals with persons who are now unreachable or unavailable? Let’s help you reconnect with them using our powerful APIs</p>
+            <p><a class="CTA-get footerlink" href="#">Get started &nbsp; <i class="fa-solid fa-arrow-right"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <section class="last-footer">
+      <div class="container py-3">
+        <div class="row  justify-content-around">
+          <div class="col-6 regulations">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+          </div>
+          
+          <div class="col-6 d-flex justify-content-end">
+            <a href=""><i class="fa-brands fa-instagram px-3 text-white"></i></a>
+            <a href=""><i class="fa-brands fa-twitter text-white"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+</body>
+</html>

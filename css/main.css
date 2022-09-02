@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar{
+  background: #000000;
+  padding: 0 !important;
+  height: 10vh !important;
+  box-shadow: 0px 23px 35px rgba(1, 20, 31, 0.22);
+}
+.navbar-brand img{
+  width: min(70vw, 120px);
+  padding-left: 20px;
+}
+.navbar-nav li{
+  padding: 0 10px;
+  background-color: black;
+}
+.navbar-nav li a{
+  color: #fff !important;
+  font-size: 14px;
+  transition: 0.15s;
+  font-weight: 600;
+  opacity: 0.6;
+  float: right;
+}
+.navbar-nav li a:hover{
+  opacity: 1;
+}
+.instagram-logo{
+  width: 15px;
+  margin: 0 20px;
+}
+.twitter-logo{
+  width: 15px;
+  float: right;
+  margin-right: 10px;
+  margin-right: 0;
+}
+.btn-brand{
+  padding: 8px 32px !important;
+  background-image: linear-gradient(to right, #23A6F0, #02324E) !important;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  float: right;
+}
+.arrow-img{
+  width: 12px;
+}
+.fa-bars{
+  color: white;
+}
+.fa-bars:active{
+  color:  #02324E;; 
+}
+.Search-bar{
+text-align: center;
+max-width: 100%;
+}
+input,
+.small-input{
+  position: relative;
+  background: #F4FBFF;
+  border-radius: 30px 0px 0px 30px;
+  outline: none;
+  border: none;
+}
+input[type="text"]{
+  width: 400px;
+  padding: 8px 32px;
+  border-radius: 25px 0 0 25px;
+}
+input::placeholder{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  opacity: 0.4;
+  padding-left: 10px;
+}
+input[type="submit"]{
+  left: -4px;
+  width: 150px;
+  background-image: linear-gradient(to right, #23A6F0, #02324E);
+  color: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0px 30px 30px 0px;
+  cursor: pointer;
+  padding: 8px 32px;
+  border: none;
+  font-size: 16px;
+  }
+  .search-icon{
+    height: 15px;
+    position:  absolute;
+    left: 15px;
+
+  }
+  .search-img{
+    height: 15px;
+    position: absolute;
+    left: 0;
+  }
+ .img-icon{
+    width: 15px;
+  }
+  .small-input::placeholder{
+  font-size: 12px;
+  font-family: 'Open Sans';
+  color: #000000;
+  opacity: 0.4;
+  }
+  .content-image{
+    max-width: 400px;
+  }
+  .google-play-img{
+    width: 10%;
+  }
+.fa-apple{
+  color: white;
+}
+.Lenders{
+  background: url(../icons/Identtii-02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 539px;
+  height: 400px;
+}
+.lenderstext{
+  font-size: 18px;
+}
+.CTA-get{
+  text-decoration: none;
+  font-size: smaller;
+}
+.Telcos{
+  background: url(../icons/cartoon-handraw.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 539px;
+  height: 400px;
+}
+.Employers{
+  background: url(../icons/Identtii-03.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 539px;
+  height: 400px;
+}
+.Landlords{
+  background: url(../icons/Identtii-01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 539px;
+  height: 400px;
+}
+footer{
+  background: #021629;;
+}
+.footer-head{
+  color: white;
+}
+.footertext{
+  font-size: 16px;
+  color: #f2f2f2b2;
+}
+.footerlink{
+  background-image: linear-gradient(to right, #23A6F0, #02324E);
+  color: white;
+  padding: 8px 32px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.footerlink:hover{
+  text-decoration: none;
+  color: rgb(223, 221, 221);
+}
+.footer-img{
+  background: url(../icons/protect-picture.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 539px;
+  height: 400px;
+}
+.last-footer{
+background-image: linear-gradient(to right, #062E53, #000000);
+}
+.regulations a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin-right: 10px;
+}
